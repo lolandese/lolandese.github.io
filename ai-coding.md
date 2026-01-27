@@ -7,6 +7,9 @@ icon: code
 ---
 {% include JB/setup %}
 
+<a href="https://www.flickr.com/photos/138067900@N08/54511605547" title="View photo on Flickr" target="_blank"><img src="https://live.staticflickr.com/65535/54511605547_cb963ce2b7_b.jpg"></a><br />
+<h5><a href="https://www.flickr.com/photos/138067900@N08/" title="View user on Flickr" target="_blank">Credit</a></h5>
+
 As a developer with coding knowledge, I get more value from AI coding assistants. Here's why:
 
 **Understanding what to ask for matters.** I know how code works, I can break down problems effectively, specify the right constraints, and recognize when I need to ask follow-up questions. I can say "use a regular expression here" or "this needs to be handled by a conditional" because I understand those concepts.

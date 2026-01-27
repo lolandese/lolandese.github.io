@@ -101,7 +101,7 @@ Then access it at `http://localhost:5000`
 
 The following directories are excluded from version control:
 - `vendor/` - Local gem installation
-- `.bundle/` - Bundle configuration  
+- `.bundle/` - Bundle configuration
 - `Gemfile.lock` - Dependency lock file
 
 GitHub Pages will automatically resolve dependencies when deploying.
