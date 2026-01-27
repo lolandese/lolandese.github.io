@@ -15,13 +15,13 @@ My online CV tells you ..
 - what I did.
 
 ## I am ..
-- a [Drupal](https://www.drupal.org/u/lolandese) coder
+- a [Drupal](https://www.drupal.org/u/lolandese) coder that went from "old-school" to **fully embracing AI assisted coding**
 - a [polyglot](http://dictionary.reference.com/browse/polyglot) [knowledge worker](https://en.wikipedia.org/wiki/Knowledge_worker)
 - EU citizen
 - a.k.a. "Martijn Postma" or "Martinus Postma".
 
 ## I do ..
-- write Open Source code that is used by many
+- write Open Source code that is used by many, **nowadays empowered by AI through GitHub CoPlot on VS Code, mainly using the latest Claude Haiku as agent**.
 - study technologies that fit my profile.
 
 ## I did ..
@@ -41,7 +41,7 @@ My online CV tells you ..
 - **deploying** with version control
 
 ### improve existing Drupal sites
-- **migrating** from Drupal 6 or 7 to Drupal 8 or 9
+- **migrating** from Drupal 6 or 7 to Drupal 8, 9, 10 and 11
 - making sites **multi-lingual** (incl. y-axis mirror for RTL)
 - **debugging** existing sites
 - .. and making sites better maintainable**

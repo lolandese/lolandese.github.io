@@ -30,4 +30,4 @@ icon: user
 - Social and presentation skills based on experience.
 - [Others say](https://www.airbnb.com/users/show/7889468) I am neat and ordered but also flexible.
 
-<a href="/#top" title="Home"><b><< PREV</b></a> &#124; <a href="/work.html#top" title="Work"><b>NEXT >></b></a>
+<a href="/ai-coding.html#top" title="AI coding"><b><< PREV</b></a> &#124; <a href="/work.html#top" title="Work"><b>NEXT >></b></a>
