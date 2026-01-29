@@ -6,8 +6,8 @@ backend:
   app_id: Ov23liFHoiELsgtKjkHs
   oauth_server_url: https://sveltia-cms-auth.netlify.app
 
-# Enable local backend for development
-local_backend: true
+# Local backend disabled - using Sveltia OAuth
+# local_backend: false
 
 media_folder: assets/images
 public_folder: /assets/images
