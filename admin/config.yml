@@ -6,7 +6,7 @@ backend:
   app_id: Ov23liFHoiELsgtKjkHs
 
 # Enable local backend for development
-# local_backend: true
+local_backend: true
 
 media_folder: assets/images
 public_folder: /assets/images
