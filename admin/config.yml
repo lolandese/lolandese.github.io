@@ -2,9 +2,7 @@ backend:
   name: github
   repo: lolandese/lolandese.github.io
   branch: master
-  auth_type: implicit
   app_id: Ov23liFHoiELsgtKjkHs
-  base_url: https://lolandese.netlify.app
 
 # Local backend for development only
 local_backend: false
