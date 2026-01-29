@@ -1,0 +1,165 @@
+backend:
+  name: github
+  repo: lolandese/lolandese.github.io
+  branch: main
+  auth_type: implicit
+  app_id: Ov23liFHoiELsgtKjkHs
+
+# Enable local backend for development
+local_backend: true
+
+media_folder: assets/images
+public_folder: /assets/images
+
+site_url: http://localhost:4000
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - file: ai-coding.md
+        label: AI Coding
+        name: ai-coding
+        preview_path: /ai-coding/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Header, name: header, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - file: airbnb-it.md
+        label: Airbnb IT
+        name: airbnb-it
+        preview_path: /airbnb-it/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Header, name: header, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - file: airbnb.md
+        label: Airbnb
+        name: airbnb
+        preview_path: /airbnb/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Header, name: header, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - file: contact.md
+        label: Contact
+        name: contact
+        preview_path: /contact/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - file: data.md
+        label: Data
+        name: data
+        preview_path: /data/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Header, name: header, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - file: edu.md
+        label: Education
+        name: edu
+        preview_path: /edu/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Header, name: header, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - file: past.md
+        label: Past
+        name: past
+        preview_path: /past/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Header, name: header, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - file: tools.md
+        label: Tools
+        name: tools
+        preview_path: /tools/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Header, name: header, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - file: work.md
+        label: Work
+        name: work
+        preview_path: /work/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Header, name: header, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - file: xterms.md
+        label: Xterms
+        name: xterms
+        preview_path: /xterms/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Header, name: header, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - file: instructions.md
+        label: Instructions
+        name: instructions
+        preview_path: /instructions/
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: page }
+          - { label: Title, name: title, widget: string }
+          - { label: Header, name: header, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: string, required: false }
+          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icon, name: icon, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+
+  - name: posts
+    label: Blog Posts
+    folder: _posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{year}}/{{month}}/{{day}}/{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Layout, name: layout, widget: hidden, default: post }
+      - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: "HH:mm:ss Z" }
+      - { label: Categories, name: categories, widget: string, required: false }
+      - { label: Tags, name: tags, widget: string, required: false }
+      - { label: Description, name: description, widget: text, required: false }
+      - { label: Body, name: body, widget: markdown }

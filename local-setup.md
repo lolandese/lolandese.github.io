@@ -48,6 +48,42 @@ bundle install
 
 This installs all required gems locally in the `vendor/bundle` directory, avoiding permission issues.
 
+### Setting Up Sveltia CMS
+
+Sveltia CMS is a headless CMS that lets you manage your Jekyll content through a visual interface.
+
+#### GitHub OAuth Configuration
+
+1. Go to [GitHub Developer Settings](https://github.com/settings/developers) → OAuth Apps
+2. Click "New OAuth App" and fill in:
+   - **Application name**: My Site CMS
+   - **Homepage URL**: `https://lolandese.github.io`
+   - **Authorization callback URL**: `https://lolandese.github.io/admin/`
+3. Copy your **Client ID** and generate a **Client Secret**
+4. Open [admin/config.yml](admin/config.yml) and replace `YOUR_GITHUB_APP_ID` with your Client ID
+
+#### Accessing the CMS Locally
+
+For local development, the CMS is accessible at:
+```
+http://localhost:4000/admin/
+```
+
+This interface allows you to:
+- Create, edit, and delete blog posts
+- Manage pages
+- Upload images to `/assets/images/`
+- Preview changes before publishing
+
+#### CMS Configuration
+
+The Sveltia CMS configuration is in [admin/config.yml](admin/config.yml):
+- **Posts collection**: Manages blog posts in `_posts/`
+- **Pages collection**: Manages standalone pages (contact.md, edu.md, etc.)
+- **Media handling**: Images stored in `assets/images/`
+
+All changes are committed directly to your GitHub repository.
+
 ### Running the Site
 
 #### Start the Development Server
