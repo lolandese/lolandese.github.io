@@ -17,8 +17,8 @@ As a developer with coding knowledge, I get more value out of AI coding assistan
 
 **Understanding what to ask for matters.** I know how code works, I can break down problems effectively, specify the right constraints, and recognize when I need to ask follow-up questions. I can say "use a regular expression here" or "this needs to be handled by a conditional" because I understand those concepts.
 
-**I can evaluate the output.** AI assistants sometimes generate code that looks plausible but has subtle bugs, uses outdated patterns, or misses edge cases. As an experienced developer, I catch these issues quickly. Without coding knowledge, one might not realize that AI suggested something inefficient or insecure.
-** **
+**I can evaluate the output.** AI assistants sometimes generate code that looks plausible but has subtle bugs, uses outdated patterns, or **misses** edge cases. As an experienced developer, I catch these issues quickly. Without coding knowledge, one might not realize that AI suggested something inefficient or insecure.
+\*\* \*\*
 **I maintain architectural vision.** AI assistants excel at implementing specific functions or components, but I should still make higher-level decisions about how pieces fit together: what libraries to use and how to structure the project. That architectural thinking comes from experience.
 
 As an experienced developer, I use AI assistants as powerful collaborators, ensuring the code quality remains high and aligns with project architecture.
