@@ -27,7 +27,7 @@ icon: user
 ## Other
 
 * In good health. Non-smoker.
-* Internationally orientated. Lived in Holland (childhood and education), Italy, and Egypt. [Traveled many places](https://www.google.com/maps/contrib/108601300816282599187/photos) for work and pleasure.
+* Internationally orientated. Lived in Holland (childhood and education), Italy, and Egypt. [Travelled many places](https://www.google.com/maps/contrib/108601300816282599187/photos) for work and pleasure.
 * Social and presentation skills based on experience.
 * [Others say](https://www.airbnb.com/users/show/7889468) I am neat and ordered, but also flexible.
 
