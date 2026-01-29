@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lolandese/lolandese.github.io
   branch: master
-  auth_type: implicit
+  auth_type: pkce
   app_id: Ov23liFHoiELsgtKjkHs
 
 # Enable local backend for development
