@@ -3,8 +3,8 @@ backend:
   repo: lolandese/lolandese.github.io
   branch: master
 
-# Enable local backend for development only
-local_backend: true
+# Local backend for development only
+local_backend: false
 
 media_folder: assets/images
 public_folder: /assets/images
