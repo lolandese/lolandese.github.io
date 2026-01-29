@@ -5,7 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex" />
   <title>Decap CMS</title>
-  <script src="http://localhost:8081/script.js"></script>
+  <script>
+    // Only load local backend proxy in development
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+      var script = document.createElement('script');
+      script.src = 'http://localhost:8081/script.js';
+      document.head.appendChild(script);
+    }
+  </script>
 </head>
 <body>
   <div id="nc-root"></div>
