@@ -12,7 +12,7 @@ while true; do
     echo "Changes detected, committing and pushing..."
     git add -A
     git commit -m "Update from Decap CMS at $(date '+%Y-%m-%d %H:%M:%S')"
-    git push origin main
+    git push origin master
     echo "Pushed to remote"
   fi
 done
