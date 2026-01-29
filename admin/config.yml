@@ -11,7 +11,7 @@ local_backend: true
 media_folder: assets/images
 public_folder: /assets/images
 
-site_url: https://lolandese.github.io
+site_url: https://lolandese.netlify.app
 
 collections:
   - name: pages
