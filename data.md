@@ -22,7 +22,7 @@ icon: user
 * Italian (Fluent)
 * English (Fluent)
 * German (Conversational)
-* French and Spanish (Basic)
+* French and Spanish (Beginner)
 
 ## Other
 
