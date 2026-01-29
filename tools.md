@@ -1,9 +1,11 @@
 ---
 layout: page
 title: My Development Tools
+header: ''
 tagline: Supporting tagline
 icon: wrench
 ---
+
 {% include JB/setup %}
 
 <a href="https://www.flickr.com/photos/204studios/5938572669" title="View photo on Flickr" target="_blank"><img src="https://c1.staticflickr.com/7/6006/5938572669_be64ec1f73_b.jpg" style="width: 800px;"></a><br />
@@ -21,6 +23,7 @@ icon: wrench
 
 ## Coding
 
+* Using AI assistant  with GitHub Copilot Pro in Visual Studio Code, Claude Haiku 4.5 mainly. 
 * Code editor: [Sublime Text 3](http://www.sublimetext.com/) » [Atom](https://atom.io) » [PhpStorm](https://www.jetbrains.com/phpstorm/)
 * [Command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface)
 * The [browser inspector](https://thewc.co/articles/view/web-inspector-tutorial) ([Mozilla 3D View](https://developer.mozilla.org/en-US/docs/Tools/3D_View))
@@ -56,7 +59,7 @@ Without the obvious. Applications that extend CLI commands are needed ([Git](htt
 
 * Reverse an applied patch: [git apply -R path/file.patch](https://www.drupal.org/patch/reverse)
 * Jump straight to a directory: [j scss](https://github.com/joelthelion/autojump)
-* Turn a makefile into a working Drupal codebase: <br />[drush make build-example.make ~/www/yoursite](http://www.drushcommands.com/drush-7x/make/make)
+* Turn a makefile into a working Drupal codebase: <br />[drush make build-example.make \~/www/yoursite](http://www.drushcommands.com/drush-7x/make/make)
 * Drupal coding standard compliance helper: [drush dcs](https://www.drupal.org/node/1419988)
 * Patch helper: [drush iq-diff > example.patch](http://cgit.drupalcode.org/drush_iq/plain/README.txt?id=refs/heads/7.x-1.x)
 * Show differences between patches: [interdiff old.patch new.patch > interdiff.txt](https://www.drupal.org/documentation/git/interdiff)
@@ -82,4 +85,4 @@ Without the obvious. Applications that extend CLI commands are needed ([Git](htt
 * [Use the existing](/3dtest.html) instead of reinventing the wheel.
 * This site is built with [Jekyll](http://jekyllrb.com/). <br />Simple. Fast. No database or pesky updates.
 
-<a href="/work.html#top" title="Work"><b><< PREV</b></a> &#124; <a href="/edu.html#top" title="Education"><b>NEXT >></b></a>
+<a href="/work.html#top" title="Work"><b><< PREV</b></a> | <a href="/edu.html#top" title="Education"><b>NEXT >></b></a>
