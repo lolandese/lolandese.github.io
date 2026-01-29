@@ -5,6 +5,8 @@ backend:
   auth_type: implicit
   app_id: Ov23liFHoiELsgtKjkHs
   base_url: https://lolandese.github.io
+  oauth_backend_url: https://oauth.decapcms.org
+  oauth_scope: repo
 
 # Enable local backend for development
 local_backend: true
