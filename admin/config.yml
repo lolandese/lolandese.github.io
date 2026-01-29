@@ -5,8 +5,8 @@ backend:
   auth_type: pkce
   app_id: Ov23liFHoiELsgtKjkHs
 
-# Enable local backend for development
-local_backend: true
+# Enable local backend for development only
+local_backend: false
 
 media_folder: assets/images
 public_folder: /assets/images
