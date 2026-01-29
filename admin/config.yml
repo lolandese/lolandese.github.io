@@ -2,8 +2,9 @@ backend:
   name: github
   repo: lolandese/lolandese.github.io
   branch: master
-  auth_type: implicit
+  auth_type: oauth
   app_id: Ov23liFHoiELsgtKjkHs
+  oauth_server_url: https://sveltia-cms-auth.netlify.app
 
 # Enable local backend for development
 local_backend: true
