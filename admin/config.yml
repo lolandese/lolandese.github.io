@@ -2,10 +2,11 @@ backend:
   name: github
   repo: lolandese/lolandese.github.io
   branch: master
+  auth_type: implicit
   app_id: Ov23liFHoiELsgtKjkHs
 
-# Local backend for development only
-local_backend: false
+# Enable local backend for development
+local_backend: true
 
 media_folder: assets/images
 public_folder: /assets/images
