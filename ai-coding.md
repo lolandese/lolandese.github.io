@@ -29,4 +29,4 @@ Most of my contributed Drupal modules were hand-written before AI code assistanc
 
 A complete Drupal project I have recently built using AI-assisted coding is the [Rating Scorer module](https://www.drupal.org/project/rating_scorer) (see [source code](https://git.drupalcode.org/project/rating_scorer)). It makes more use of Javascript and the testing suite is much more extensive compared with my older published modules. It was also easier to offer a dashboard, a calculator widget, and to include a full demo as an example for developers. AI-assisted coding has made me significantly more productive while improving code quality and documentation.
 
-<a href="/#top" title="Home"><b><< PREV</b></a> | <a href="/data.html#top" title="Personal info"><b>NEXT >></b></a>
+<a href="/#top" title="Home"><b><< PREV</b></a> &#124; <a href="/data.html#top" title="Personal info"><b>NEXT >></b></a>
