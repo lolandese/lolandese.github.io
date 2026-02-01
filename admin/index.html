@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex" />
-  <title>Sveltia CMS</title>
+  <title>Sveltia CMS - Italiano</title>
   <script>
+    // Set Italian as default locale
+    window.localStorage.setItem('sveltia-cms.prefs.locale', 'it');
+    
     // Only load local backend proxy in development
     if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
       var script = document.createElement('script');
