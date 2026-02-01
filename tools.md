@@ -23,7 +23,7 @@ icon: wrench
 
 ## Coding
 
-* Using AI assistant  with GitHub Copilot Pro in Visual Studio Code, Claude Haiku 4.5 mainly. 
+* Using AI assistant  with GitHub Copilot Pro in Visual Studio Code, Claude Haiku 4.5 mainly.
 * Code editor: [Sublime Text 3](http://www.sublimetext.com/) » [Atom](https://atom.io) » [PhpStorm](https://www.jetbrains.com/phpstorm/)
 * [Command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface)
 * The [browser inspector](https://thewc.co/articles/view/web-inspector-tutorial) ([Mozilla 3D View](https://developer.mozilla.org/en-US/docs/Tools/3D_View))
@@ -85,4 +85,4 @@ Without the obvious. Applications that extend CLI commands are needed ([Git](htt
 * [Use the existing](/3dtest.html) instead of reinventing the wheel.
 * This site is built with [Jekyll](http://jekyllrb.com/). <br />Simple. Fast. No database or pesky updates.
 
-<a href="/work.html#top" title="Work"><b><< PREV</b></a> | <a href="/edu.html#top" title="Education"><b>NEXT >></b></a>
+<a href="/work.html#top" title="Work"><b><< PREV</b></a> &#124; <a href="/edu.html#top" title="Education"><b>NEXT >></b></a>
