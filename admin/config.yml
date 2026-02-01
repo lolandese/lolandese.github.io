@@ -13,153 +13,161 @@ public_folder: /assets/images
 
 site_url: https://lolandese.netlify.app
 
+# Enable internationalization
+i18n:
+  structure: single_file
+  locales: [it, en]
+  default_locale: it
+
 collections:
   - name: pages
-    label: Pages
+    label: Pagine
+    i18n:
+      label: it
     files:
       - file: ai-coding.md
-        label: AI Coding
+        label: Programmazione IA
         name: ai-coding
         preview_path: /ai-coding/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Header, name: header, widget: string, required: false }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Intestazione, name: header, widget: string, required: false }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
       - file: airbnb-it.md
         label: Airbnb IT
         name: airbnb-it
         preview_path: /airbnb-it/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Header, name: header, widget: string, required: false }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Intestazione, name: header, widget: string, required: false }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
       - file: airbnb.md
         label: Airbnb
         name: airbnb
         preview_path: /airbnb/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Header, name: header, widget: string, required: false }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Intestazione, name: header, widget: string, required: false }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
       - file: contact.md
-        label: Contact
+        label: Contatti
         name: contact
         preview_path: /contact/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
       - file: data.md
-        label: Data
+        label: Dati
         name: data
         preview_path: /data/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Header, name: header, widget: string, required: false }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Intestazione, name: header, widget: string, required: false }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
       - file: edu.md
-        label: Education
+        label: Formazione
         name: edu
         preview_path: /edu/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Header, name: header, widget: string, required: false }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Intestazione, name: header, widget: string, required: false }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
       - file: past.md
-        label: Past
+        label: Passato
         name: past
         preview_path: /past/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Header, name: header, widget: string, required: false }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Intestazione, name: header, widget: string, required: false }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
       - file: tools.md
-        label: Tools
+        label: Strumenti
         name: tools
         preview_path: /tools/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Header, name: header, widget: string, required: false }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Intestazione, name: header, widget: string, required: false }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
       - file: work.md
-        label: Work
+        label: Lavoro
         name: work
         preview_path: /work/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Header, name: header, widget: string, required: false }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Intestazione, name: header, widget: string, required: false }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
       - file: xterms.md
         label: Xterms
         name: xterms
         preview_path: /xterms/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Header, name: header, widget: string, required: false }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Intestazione, name: header, widget: string, required: false }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
       - file: instructions.md
-        label: Instructions
+        label: Istruzioni
         name: instructions
         preview_path: /instructions/
         fields:
           - { label: Layout, name: layout, widget: hidden, default: page }
-          - { label: Title, name: title, widget: string }
-          - { label: Header, name: header, widget: string, required: false }
-          - { label: Tagline, name: tagline, widget: string, required: false }
-          - { label: Group, name: group, widget: select, options: [navigation, footer], required: false }
-          - { label: Icon, name: icon, widget: string, required: false }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Titolo, name: title, widget: string }
+          - { label: Intestazione, name: header, widget: string, required: false }
+          - { label: Slogan, name: tagline, widget: string, required: false }
+          - { label: Gruppo, name: group, widget: select, options: [navigation, footer], required: false }
+          - { label: Icona, name: icon, widget: string, required: false }
+          - { label: Contenuto, name: body, widget: markdown }
 
   - name: posts
-    label: Blog Posts
+    label: Articoli
     folder: _posts
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "{{year}}/{{month}}/{{day}}/{{slug}}"
     fields:
-      - { label: Title, name: title, widget: string }
+      - { label: Titolo, name: title, widget: string }
       - { label: Layout, name: layout, widget: hidden, default: post }
-      - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: "HH:mm:ss Z" }
-      - { label: Categories, name: categories, widget: string, required: false }
-      - { label: Tags, name: tags, widget: string, required: false }
-      - { label: Description, name: description, widget: text, required: false }
-      - { label: Body, name: body, widget: markdown }
+      - { label: Data, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: "HH:mm:ss Z" }
+      - { label: Categorie, name: categories, widget: string, required: false }
+      - { label: Tag, name: tags, widget: string, required: false }
+      - { label: Descrizione, name: description, widget: text, required: false }
+      - { label: Contenuto, name: body, widget: markdown }
