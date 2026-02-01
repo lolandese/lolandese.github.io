@@ -8,6 +8,9 @@ backend:
 # Enable local backend for development only
 local_backend: false
 
+# Set Italian as default UI language
+locale: it
+
 media_folder: assets/images
 public_folder: /assets/images
 
