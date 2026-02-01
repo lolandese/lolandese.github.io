@@ -11,7 +11,7 @@ export const strings = {
   workflow: 'Flusso di lavoro',
   editorial_workflow: 'Flusso di lavoro editoriale',
   menu: 'Menu',
-  
+
   // Entrance
   user_name: 'Nome utente',
   password: 'Password',
@@ -21,7 +21,7 @@ export const strings = {
   working_with_local_repo: 'Lavoro con repository locale',
   working_with_test_repo: 'Lavoro con repository di test',
   sign_out: 'Esci',
-  
+
   // Actions
   create: 'Nuovo',
   select: 'Seleziona',
@@ -46,7 +46,7 @@ export const strings = {
   insert: 'Inserisci',
   restore: 'Ripristina',
   discard: 'Scarta',
-  
+
   // Common UI
   searching: 'Ricerca in corso…',
   no_results_found: 'Nessun risultato trovato.',
@@ -57,7 +57,7 @@ export const strings = {
   folder: 'Cartella',
   api_key: 'Chiave API',
   details: 'Dettagli',
-  
+
   // Status
   draft: 'Bozza',
   in_review: 'In revisione',
@@ -68,7 +68,7 @@ export const strings = {
   unpublished: 'Non pubblicato',
   scheduled: 'Programmato',
   archived: 'Archiviato',
-  
+
   // Messages
   error: 'Errore',
   warning: 'Avvertenza',
@@ -77,7 +77,7 @@ export const strings = {
   loading: 'Caricamento…',
   processing: 'Elaborazione…',
   done: 'Fatto',
-  
+
   // Dialog buttons
   cancel: 'Annulla',
   close: 'Chiudi',
@@ -86,7 +86,7 @@ export const strings = {
   no: 'No',
   all: 'Tutto',
   none: 'Nessuno',
-  
+
   // Editor
   edit: 'Modifica',
   preview: 'Anteprima',
@@ -95,21 +95,21 @@ export const strings = {
   search: 'Cerca',
   filter: 'Filtra',
   sort: 'Ordina',
-  
+
   // Welcome message
   welcome_to_sveltia_cms: 'Benvenuto in Sveltia CMS',
   loading_cms_config: 'Caricamento della configurazione del CMS…',
   loading_site_data: 'Caricamento dei dati del sito…',
-  
+
   // Errors
   unexpected_error: 'Errore inaspettato',
-  
+
   // Settings
   settings: 'Impostazioni',
   help: 'Aiuto',
   documentation: 'Documentazione',
   keyboard_shortcuts: 'Scorciatoie da tastiera',
-  
+
   // Additional common terms
   name: 'Nome',
   title: 'Titolo',
